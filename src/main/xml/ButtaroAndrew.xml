@@ -67,8 +67,10 @@
 							</date>
 						</from>
 						<to>
-						<month>January</month>
-						<year>2018</year>
+							<date>
+								<month>January</month>
+								<year>2018</year>
+							</date>
 						</to>
 					</period>
 					<location>
@@ -558,8 +560,6 @@
 			<roles>
 				<job>
 					<jobtitle>Teaching Assistant, Web Development Using XML</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 							Conduct online Elluminate sessions providing material to
@@ -597,7 +597,6 @@
 			<roles>
 				<job>
 					<jobtitle>Revenue Management Systems (RMS) Lead Developer</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -612,7 +611,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 							Lead developer responsible for design, architecture, and
@@ -671,7 +669,6 @@
 
 				<job>
 					<jobtitle>Starwood Preferred Guest (SPG) Lead Developer</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -686,7 +683,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>Lead Java developer contributing to the redesign of legacy
 							mainframe applications to a Java / Oracle / Linux platform to
@@ -720,7 +716,6 @@
 
 				<job>
 					<jobtitle>SPG Java Developer</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -735,7 +730,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 						</para>
@@ -756,7 +750,6 @@
 
 				<job>
 					<jobtitle>Programmer Analyst</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -771,7 +764,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 							Filled a multitude of roles centered around reporting using
@@ -817,7 +809,6 @@
 				<job>
 					<jobtitle>Web Analytics Administrator (Contractor through July
 						2002)</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -832,7 +823,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 							Provided web analytics for Starwood web traffic using
@@ -860,7 +850,6 @@
 
 				<job>
 					<jobtitle>Oracle Portal Content Administrator (Contractor)</jobtitle>
-					<!-- <employer>Starwood Hotels and Resorts</employer> -->
 					<period>
 						<from>
 							<date>
@@ -875,7 +864,6 @@
 							</date>
 						</to>
 					</period>
-					<!-- <location><city>Braintree</city><state>MA</state></location> -->
 					<description>
 						<para>
 							Developed corporate portal site content using Oracle Portal,
@@ -887,21 +875,6 @@
 			</roles>
 		</employment>
 
-		<!-- <job> <jobtitle>Accounting Analyst</jobtitle> <employer>Pratt Medical 
-			Management</employer> <period> <from><date><month>September</month><year>1999</year></date></from> 
-			<to><date><month>December</month><year>2000</year></date></to> </period> 
-			<location><city>Boston</city><state>MA</state></location> <description> <para>Performed 
-			general accounting responsibilities and took initiative in developing VB 
-			macros for Excel and Microsoft Access and learned SQL to extract and report 
-			financial data. </para> </description> </job> <job targets="foodservice"> 
-			<jobtitle>Assistant Chef</jobtitle> <employer>Zolo</employer> <period> <from> 
-			<date> <month>April</month> <year>1993</year> </date> </from> <to> <date> 
-			<month>January</month> <year>1997</year> </date> </to> </period> <projects> 
-			<project title="Fall Menu">Created an extensive menu for our fall offerings</project> 
-			<project>Revamping of Grill Area</project> </projects> <achievements> <achievement>Developed 
-			<emphasis>13</emphasis> new menu items</achievement> <achievement>Prepared 
-			daily operations plan</achievement> <achievement>Streamlined procedures for 
-			fresh foods procurement</achievement> </achievements> </job> -->
 	</history>
 
 	<academics>
@@ -982,37 +955,8 @@
 				</location>
 			</degree>
 
-			<!-- <degree> <major>Client/Server Programming and Web Development</major> 
-				<annotation>Certificate</annotation> <period> <from><date><dayOfMonth>18</dayOfMonth><month>December</month><year>2000</year></date></from> 
-				<to><date><dayOfMonth>15</dayOfMonth><month>March</month><year>2001</year></date></to> 
-				</period> <institution>Clark University, CCI</institution> <location><city>Braintree</city><state>MA</state></location> 
-				<subjects> <subject> <title>Visual Basic, Introduction to Oracle: SQL and 
-				PL/SQL, HTML, JavaScript, ASP, Objects and ActiveX Components.</title> </subject> 
-				</subjects> </degree> -->
 		</degrees>
 	</academics>
-
-	<!-- <skillarea targets="programming"> <title>Programming</title> <skillset> 
-		<skill>Java</skill> <skill>JavaScript</skill> <skill>ActionScript</skill> 
-		<skill>Object Oriented Design</skill> <skill>Design Patterns</skill> <skill>XSLT/XPath</skill>> 
-		<skill>PL/SQL</skill> <! - - <skill>Shell Scripting</skill> <skill>Perl</skill> 
-		<skill>PL/SQL</skill> - - > </skillset> </skillarea> -->
-
-
-	<!-- <skillarea targets="webdev"> <title>Web Development</title> <skillset> 
-		<skill>(X)HTML</skill> <skill>CSS</skill> <skill>JavaScript</skill> <skill>Spring 
-		MVC</skill> <skill>Servlets</skill> <skill>JSP</skill> <skill>Backbone.js</skill> 
-		<skill>jQuery</skill> <skill>Underscore.js</skill> <skill>Flex</skill> </skillset> 
-		</skillarea> <skillarea targets="related"> <title>Related Skills / Technologies</title> 
-		<skillset> <skill>Java</skill> <skill>Spring Framework</skill> <skill>Software 
-		Architecture</skill> <skill>Agile Development</skill> <skill>REST</skill> 
-		<skill>Unix</skill> <skill>Linux</skill> <skill>MacOS</skill> <skill>Maven</skill> 
-		<skill>Ant</skill> <skill>Eclipse</skill> <! - - <skill>MongoDB</skill> <skill>Java 
-		EE</skill> <skill>SQL Tuning</skill> <skill>MySQL</skill> <skill>Oracle</skill> 
-		<skill>Redis</skill> <skill>LDAP</skill> <skill>SOAP</skill> <skill>Apache</skill> 
-		<skill>Tomcat</skill> <skill>Cocoon</skill> <skill>Weblogic</skill> <skill 
-		targets="flex">Cairngorm</skill> <skill targets="flex">BlazeDS</skill> - 
-		- > </skillset> </skillarea> -->
 
 
 	<lastModified>
