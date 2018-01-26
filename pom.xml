@@ -1,0 +1,178 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.buttaro</groupId>
+	<artifactId>resume</artifactId>
+	<version>1.0.0</version>
+	
+	<!-- 
+	mvn clean xml:transform antrun:run
+	 -->
+
+	<properties>
+		<resume>ButtaroAndrew</resume>
+		<srcDir>src/main/xml</srcDir>
+		<xslDir>resume-1_5_1/xsl/format</xslDir>
+		<sourceDirectory>${srcDir}</sourceDirectory>
+		<outputDir>${project.build.directory}/generated-resources/xml/xslt</outputDir>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xerces</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>xalan</groupId>
+			<artifactId>xalan</artifactId>
+			<version>2.7.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>avalon-framework</groupId>
+			<artifactId>avalon-framework-api</artifactId>
+			<version>4.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>avalon-framework</groupId>
+			<artifactId>avalon-framework-impl</artifactId>
+			<version>4.2.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.xmlgraphics</groupId>
+			<artifactId>fop</artifactId>
+			<version>1.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>avalon-framework-impl</artifactId>
+					<groupId>org.apache.avalon.framework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>avalon-framework-api</artifactId>
+					<groupId>org.apache.avalon.framework</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+					<id>default-cli</id>
+					<phase>compile</phase>
+					<inherited>true</inherited>
+            <configuration>
+              <target>
+                <property name="compile_classpath" refid="maven.compile.classpath"/>
+                <property name="runtime_classpath" refid="maven.runtime.classpath"/>
+                <property name="test_classpath" refid="maven.test.classpath"/>
+                <property name="plugin_classpath" refid="maven.plugin.classpath"/>
+<!-- 
+                <echo message="compile classpath: ${compile_classpath}"/>
+                <echo message="runtime classpath: ${runtime_classpath}"/>
+                <echo message="test classpath:    ${test_classpath}"/>
+                <echo message="plugin classpath:  ${plugin_classpath}"/>
+                
+                <echo message="compile classpath: ${compile_classpath}"/>
+   <java classname="org.apache.fop.apps.Fop" classpath="${compile_classpath}">
+      <arg value="-fo"/>
+      <arg value="${outputDir}/${resume}.fo"/>
+      <arg value="-pdf"/>
+      <arg value="${outputDir}/${resume}.pdf"/>
+    </java>
+    -->
+    <taskdef name="fop"
+         classname="org.apache.fop.tools.anttasks.Fop" classpath="${compile_classpath}">
+  <!-- 
+  <classpath>
+    <fileset dir="${fop.home}/lib">
+      <include name="*.jar"/>
+    </fileset>
+    <fileset dir="${fop.home}/build">
+      <include name="fop.jar"/>
+      <include name="fop-hyph.jar" />
+    </fileset>
+  </classpath>
+   -->
+</taskdef>
+
+   <fop format="application/pdf"
+        fofile="${outputDir}/${resume}.fo"
+        outfile="${outputDir}/${resume}.pdf" />
+							
+              </target>
+            </configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>xml-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>transform</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<transformationSets>
+						<transformationSet>
+							<dir>${srcDir}</dir>
+							<stylesheet>${xslDir}/html.xsl</stylesheet>
+							<fileMappers>
+								<fileMapper
+									implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+									<pattern>\.xml$</pattern>
+									<replacement>.html</replacement>
+								</fileMapper>
+							</fileMappers>
+						</transformationSet>
+						<transformationSet>
+							<dir>${srcDir}</dir>
+							<stylesheet>${xslDir}/fo.xsl</stylesheet>
+							<fileMappers>
+								<fileMapper
+									implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+									<pattern>\.xml$</pattern>
+									<replacement>.fo</replacement>
+								</fileMapper>
+							</fileMappers>
+						</transformationSet>
+						<transformationSet>
+							<dir>${srcDir}</dir>
+							<stylesheet>${xslDir}/text.xsl</stylesheet>
+							<fileMappers>
+								<fileMapper
+									implementation="org.codehaus.plexus.components.io.filemappers.RegExpFileMapper">
+									<pattern>\.xml$</pattern>
+									<replacement>.txt</replacement>
+								</fileMapper>
+							</fileMappers>
+						</transformationSet>
+					</transformationSets>
+				</configuration>
+			</plugin>
+
+
+
+		</plugins>
+	</build>
+
+</project>

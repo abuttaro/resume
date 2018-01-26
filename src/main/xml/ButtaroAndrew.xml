@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+
+<resume id="AndrewButtaro">
+
+	<header>
+		<name id="andy.buttaro">
+			<firstname>Andrew</firstname>
+			<surname>Buttaro</surname>
+		</name>
+		<address>
+			<street><!-- street --></street>
+			<city>xxx</city>
+			<state>xx</state>
+			<zip>xxxxx</zip>
+		</address>
+		<contact>
+			<!--<phone location="home">xxx-xxx-xxxx</phone> -->
+			<phone>xxx-xxx-xxx</phone>
+			<email>xxx@x.com</email>
+			<url>xxx</url>
+		</contact>
+	</header>
+
+	<objective>
+		<para>I am a software developer with 16 years of developing and
+			architecting highly performant and scalable solutions. My strengths
+			are Java, Java related technologies, designing performant data
+			access, identifying and applying existing frameworks when solving
+			common business problems, and designing maintainable and
+			thoroughly
+			tested code. I will lead and mentor others and
+			contribute to
+			delivering high quality
+			software for any business problem.
+		</para>
+	</objective>
+	<history>
+
+		<employment>
+			<employer>Cengage Learning</employer>
+			<period>
+				<from>
+					<date>
+						<month>July</month>
+						<year>2017</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>January</month>
+						<year>2018</year>
+					</date>
+				</to>
+			</period>
+			<roles>
+				￼￼￼
+				<job>
+					<jobtitle>Java Applications Architect</jobtitle>
+					<employer>Cengage Learning</employer>
+					<period>
+						<from>
+							<date>
+								<month>July</month>
+								<year>2017</year>
+							</date>
+						</from>
+						<to>
+						<month>January</month>
+						<year>2018</year>
+						</to>
+					</period>
+					<location>
+						<city>Boston</city>
+						<state>MA</state>
+					</location>
+					<description>
+						<para>
+							Collaborate with the Content Services team to contribute
+							toward team goals and
+							communicate standards and best practices
+							established with the Application Architecture team.
+						</para>
+					</description>
+					<projects>
+						<project>Modified Cengage Activity Service (CAS) to decouple
+							student runtime from internal, back end services.  Implemented a 
+							message consumer to persist published details in Cassandra and replaced
+							service calls to instead read cached details.
+						</project>
+						<project>Developed a proof of concept using Gson, JAX-RS, Apache Karaf (OSGi) to 
+						build a generic service facade using a builder pattern to transform, add HATEOAS linking,
+						and combine JSON services.
+						</project>
+						<project>Developed a proof of concept using Docker to demonstrate
+							that
+							multiple platforms for viewing content at different phases may exist with a single editing
+							platform
+						</project>
+					</projects>
+				</job>
+
+			</roles>
+		</employment>
+		
+		
+		
+		<employment>
+			<employer>REST Up! Framework</employer>
+			<period>
+				<from>
+					<date>
+						<month>July</month>
+						<year>2017</year>
+					</date>
+				</from>
+				<to>
+					<present />
+				</to>
+			</period>
+			<roles>
+				￼￼￼
+				<job>
+					<jobtitle>Contributor</jobtitle>
+					<period>
+						<from>
+							<date>
+								<month>July</month>
+								<year>2017</year>
+							</date>
+						</from>
+						<to>
+							<present />
+						</to>
+					</period>
+					<description>
+						<para>
+							Designed and developed a yet to be released open source framework based on
+							some of my API work while at Everbridge.  Up! Framework offers
+							a framework for building RESTful services by providing API/ORM mapping 
+							to provide consistent APIs,
+							reduce boiler-plate code,
+							easily and correctly support PATCH operations,
+							design filter based services for decomposed code reuse,
+							provide content negotiation for multiple JSON formats (JSON API/HAL),
+							provide dynamic query capability,
+							provide consistent parameter parsing,
+							support sparse fields, compound documents
+							and more.  
+							Up! Test Framework
+							offers API request builders for extremely concise and thorough testing. Source
+							and a Spring Boot demo application are available on GitHub.
+						</para>
+					</description>
+				</job>
+
+			</roles>
+		</employment>
+		
+		
+		
+		
+
+		<employment>
+			<employer>Everbridge</employer>
+			<period>
+				<from>
+					<date>
+						<month>December</month>
+						<year>2014</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>July</month>
+						<year>2017</year>
+					</date>
+				</to>
+			</period>
+			<roles>
+
+				￼￼￼
+				<job>
+					<jobtitle>Principal Software Engineer</jobtitle>
+					<employer>Everbridge</employer>
+					<period>
+						<from>
+							<date>
+								<month>May</month>
+								<year>2016</year>
+							</date>
+						</from>
+						<to>
+					<date>
+						<month>July</month>
+						<year>2017</year>
+					</date>
+						</to>
+					</period>
+					<location>
+						<city>Burlington</city>
+						<state>MA</state>
+					</location>
+					<description>
+						<para>
+							Continued to work on IT Alerting (ITA) applications and to
+							collaborate
+							with product team to design and develop ITA features
+						</para>
+					</description>
+					<projects>
+						<project>Developed microservice to support ITA Dashboard using
+							Spring Boot, PostgreSQL, JWT authentication, Consul, Actuator,
+							and Datadog
+						</project>
+						<project>Continued to support feature development for ITA staffing
+							schedules.
+						</project>
+						<project>Developed a framework to support RESTful APIs based upon
+							the JSON API spec. Custom Jackson deserializers accept one or
+							many resources and correctly identify nulled fields. Requests are
+							parsed for includes, sparse fields, pagination, sorting, and
+							field filters. Custom Jackson serialization supports sparse field
+							sets and dynamically embedded fields. Annotated methods bind
+							validations to fields referenced in create and edits. Annotated
+							resource relationships support included resources and dynamically
+							embedded fields. JPA and Spring Data Mongo repository
+							implementations support relational and mongo data access for
+							dynamic filtering, pagination, and sorting. Swagger doc generated
+							from Resource metadata.
+						</project>
+					</projects>
+					
+					<achievements>
+						<achievement>Received a code quality award for exceptional testing of complex business services
+						</achievement>
+						<!-- 
+						Andy Buttaro
+ has been always a champion of code standards, quality & building code as per the requirements. 
+ To achieve this, he always starts by deeply understanding the business requirements
+ , challenging any design that increases technical debt in our system. 
+ His next biggest contribution is writing unit tests before any coding begins. 
+ So far, for the very complex Scheduling backend & APIs, he has written close to 800 tests
+. The tests have greatly help reduce potential defects on the complex backend. 
+ Andy has also been working with QA teams to support automation efforts and Release Engineering 
+ to support streamlining the unit test execution before each build. 
+						 -->
+					</achievements>
+				</job>
+
+				￼￼￼
+				<job>
+					<jobtitle>Senior Software Engineer</jobtitle>
+					<employer>Everbridge</employer>
+					<period>
+						<from>
+							<date>
+								<month>December</month>
+								<year>2014</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>May</month>
+								<year>2016</year>
+							</date>
+						</to>
+					</period>
+					<location>
+						<city>Lexington/Burlington</city>
+						<state>MA</state>
+					</location>
+					<description>
+						<para>Designed, implemented, and enhanced several of Everbridge's
+							ITA applications.
+						</para>
+					</description>
+					<projects>
+						<project>Redesigned and implemented the ITA staff scheduling back
+							end, which supports staffing on call personnel. Worked closely
+							with product team to gather requirements for features requiring
+							complex business logic. Leveraged java.time APIs and ical4j for
+							repeating schedules over time and across timezones.
+						</project>
+						<project>Designed and developed a test framework to simplify mock
+							testing (for both Play FakeRequest and Spring MockMVC
+							implementations) by providing a fluent api for requesting RESTful
+							services and using file comparison based assertions for testing
+							API responses.
+						</project>
+						<project>Developed a configurable proxy controller to behave as a
+							gateway and provide a bridge for migrating legacy applications
+							toward a microservice architecture.
+						</project>
+						<project>Added JWT header authentication for microservices using
+							Play framework
+						</project>
+						<project>Co-designed and implemented Two Way Communications, a
+							feature to support webhooks, as a microservice using the Play
+							framework, Spring, Jongo, and RabbitMQ
+						</project>
+						<project>Enhanced and refactored APIs for Email Ingestion, an
+							application to consume and parse emails to trigger emergency
+							notifications. Added JSON API support and thorough API unit and
+							integration testing while contributing feature enhancements.
+						</project>
+					</projects>
+				</job>
+
+
+			</roles>
+		</employment>
+
+
+		<employment>
+			<employer>ABB, Product Group Solar</employer>
+			<period>
+				<from>
+					<date>
+						<month>October</month>
+						<year>2009</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>November</month>
+						<year>2014</year>
+					</date>
+				</to>
+			</period>
+			<roles>
+
+				￼
+				<job>
+					<jobtitle>Lead Software Architect</jobtitle>
+					<employer>ABB (acquired Power-One)</employer>
+					<!-- April 2013 -->
+					<period>
+						<from>
+							<date>
+								<month>August</month>
+								<year>2012</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>November</month>
+								<year>2014</year>
+							</date>
+						</to>
+					</period>
+					<location>
+						<city>San Jose</city>
+						<state>CA</state>
+					</location>
+					<description>
+						<para>
+							Responsible for improving performance and scalability of a
+							solar monitoring
+							application. Provided technical direction for
+							a
+							small team of developers while regularly contributing to feature
+							development and mainenance.
+						</para>
+					</description>
+					<projects>
+						<project>Modeled data in MongoDB using Array of Ancestors pattern
+							for fast retrieval of hierarchical data.
+						</project>
+						<project>Developed JSON services using Spring MVC, Jackson
+							Mix-Ins, Spring HandlerMethodArgumentResolvers, custom
+							LocaleResolvers, custom HandlerInterceptors for user preferences,
+							and Swagger for documentation.
+						</project>
+						<project>Incorporated Spring Security using custom
+							AccessDecisionManagers and security filters to control
+							authentication and authorization.
+						</project>
+						<project>Co-located services within web applications to reduce
+							deployment complexity and maintenance overhead.
+						</project>
+						<project>Contributed to establishing continuous integration using
+							Maven and Jenkins.
+						</project>
+						<project>Established rigorous end to end unit testing using Spring
+							Mock MVC and JSON resources for testing service responses and
+							database state.
+						</project>
+						<project>Improved SQL performance using driver tables and
+							indexing.
+						</project>
+						<project>Designed application configuration supporting shared,
+							version controlled properties, local overrides, and runtime
+							reconfiguration using JMX, REST API, UI, and Pub/Sub messaging
+							triggers.
+						</project>
+						<project>Contributed to the design and prototype of time series
+							data storage using KairosDB backed by Cassandra.
+						</project>
+						<project>Prototyped usage of Redis using Spring Data for caching,
+							queueing, and pub/sub messaging to improve performance and
+							scalability.
+						</project>
+					</projects>
+				</job>
+
+				￼￼￼
+				<job>
+					<jobtitle>Senior Software Engineer</jobtitle>
+					<employer>Power-One (acquired Renewable Energy Business Unit from
+						National Semiconductor)
+					</employer>
+					<period>
+						<from>
+							<date>
+								<month>June</month>
+								<year>2011</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>August</month>
+								<year>2012</year>
+							</date>
+						</to>
+					</period>
+					<location>
+						<city>San Jose</city>
+						<state>CA</state>
+					</location>
+					<description>
+						<para>
+							Contributed to the maintenance and enhancement of Java based
+							web apps for
+							solar monitoring applications.
+						</para>
+					</description>
+					<projects>
+						<project title="Aurora Vision">Converted UI containing Flex components to
+							use only HTML, CSS, JavaScript using jQuery, Backbone.js, and
+							amCharts.
+						</project>
+						<project title="Aurora Admin">Completed an HTML, CSS, and JavaScript
+							based user management UI using jQuery and Backbone.js.
+						</project>
+						<project>Improved page performance by reducing scripts loaded and
+							using YUI compressor for JavaScript and CSS compression.
+						</project>
+					</projects>
+				</job>
+
+				<job>
+					<jobtitle>Senior Software Engineer</jobtitle>
+					<employer>National Semiconductor (acquired ActSolar,Inc)</employer>
+					<period>
+						<from>
+							<date>
+								<month>October</month>
+								<year>2009</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>June</month>
+								<year>2011</year>
+							</date>
+						</to>
+					</period>
+					<location>
+						<city>Santa Clara</city>
+						<state>CA</state>
+					</location>
+					<description>
+						<para>
+							Lead Developer for solar monitoring web applications.
+						</para>
+					</description>
+					<projects>
+						<project title="MYPVDATA Analytics">Developed Flex components for analyzing and
+							projecting solar system performance using Mate, Spring, BlazeDS,
+							and MySQL.
+						</project>
+						<project>Scheduled Quartz jobs for analyzing time series data
+							collected from solar installations.
+						</project>
+						<project>Prototyped live camera feeds using Red5, Xuggler, and
+							Flex.
+						</project>
+					</projects>
+				</job>
+
+				<job>
+					<jobtitle>Flex Developer (Part-time Contractor)</jobtitle>
+					<employer>ActSolar, Inc</employer>
+					<period>
+						<from>
+							<date>
+								<month>August</month>
+								<year>2008</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>October</month>
+								<year>2009</year>
+							</date>
+						</to>
+					</period>
+					<location>
+						<city>Santa Clara</city>
+						<state>CA</state>
+					</location>
+					<description>
+						<para>
+							Contributed to the development, design, tuning, and
+							configuration of a Flex
+							client and a Java, Spring, Hibernate, and
+							MySQL back-end using
+							Spring Flex Integration (BlazeDS).
+						</para>
+					</description>
+					<projects>
+						<project title="Solar Operation Center (SOC)">Utilized data visualization components to
+							create a dynamic drag and drop charting component enabling solar
+							production analysis. Added chart annotations to flag events on
+							charting components. Delivered real-time data to the client using
+							BlazeDS messaging. Created a mashup of location data, Google
+							Maps, and Yahoo Weather.
+						</project>
+					</projects>
+				</job>
+
+			</roles>
+		</employment>
+
+
+		<employment>
+			<employer>Harvard University Extension School</employer>
+			<period>
+				<from>
+					<date>
+						<month>September</month>
+						<year>2008</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>January</month>
+						<year>2009</year>
+					</date>
+				</to>
+			</period>
+			<location>
+				<city>Cambridge</city>
+				<state>MA</state>
+			</location>
+			<roles>
+				<job>
+					<jobtitle>Teaching Assistant, Web Development Using XML</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+							Conduct online Elluminate sessions providing material to
+							support
+							lectures covering the use of XML, XSLT, XPath, and Cocoon
+							to
+							produce XHTML, XHTML-MP, and XSL-FO output. Support student
+							Q&amp;A in sessions, forums, and email.
+						</para>
+					</description>
+				</job>
+			</roles>
+		</employment>
+
+		<employment>
+			<employer>Starwood Hotels and Resorts</employer>
+			<period>
+				<from>
+					<date>
+						<month>May</month>
+						<year>2001</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>October</month>
+						<year>2009</year>
+					</date>
+				</to>
+			</period>
+			<location>
+				<city>Braintree</city>
+				<state>MA</state>
+			</location>
+			<roles>
+				<job>
+					<jobtitle>Revenue Management Systems (RMS) Lead Developer</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>June</month>
+								<year>2007</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>October</month>
+								<year>2009</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+							Lead developer responsible for design, architecture, and
+							implementation of new applications as well as supporting and
+							enhancing legacy applications. Mentor less experienced developers
+							as a group, individually, and through providing tools for
+							individual development.
+						</para>
+					</description>
+
+					<projects>
+						<project title="RMS Tools">A Flex shell application which loads flex
+							modules providing tools for hotel revenue managers. RMS tools use
+							Spring Flex Integration(BlazeDS) and Spring Security.
+						</project>
+						<project title="Corporate Volume Pricing Tool">A hotel rate analysis and pricing tool
+							using Flex 3 and Cairngorm to create an RIA client connecting to
+							a Java, Spring, BlazeDS back end.
+						</project>
+						<project title="RMS Messaging">Leveraged Spring messaging support to
+							deliver xml messages using JAX-B through MQ messaging.
+						</project>
+						<project title="TopLine Group Optimizer (TLGO) Web Client">Rewrite of the TLGO Swing client using Flex
+							3 and Cairngorm to connect to a Java, Spring, BlazeDS back end.
+						</project>
+						<project title="TopLine Group Optimizer (TLGO) Swing Client">Assumed development of a Swing based client
+							application used for hotel group rate optimization.
+						</project>
+						<project title="TLGO Services">Implemented a layered architecture using
+							Spring. Exposed a thin, secure, LDAP authenticated SOAP web
+							service layer using Axis. Developed business services using
+							Spring AOP for declarative transaction management. Created a
+							Spring JDBC persistence implementation of a DAO abstraction.
+						</project>
+						<project title="TopLine Profit Enterprise (TLPE) Client">Contributed enhancements to a legacy Swing
+							application.
+						</project>
+						<project title="TLPE">Enhanced an EJB 2.1 application running in
+							Weblogic.
+						</project>
+						<project title="Build/Continuous Integration">Developed and maintained complex build and
+							release scripts for managing multiple Java and Flex projects.
+							Established continuous integration processes using CruiseControl.
+						</project>
+					</projects>
+
+					<achievements>
+						<achievement>Received the quarterly IT Guiding Principles, Most
+							People-Focused Award, given to "the team or individual that has
+							'carried the torch' and has had the greatest overall impact on
+							nurturing associates, spreading and embedding a value-based
+							culture into IT."
+						</achievement>
+					</achievements>
+				</job>
+
+				<job>
+					<jobtitle>Starwood Preferred Guest (SPG) Lead Developer</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>March</month>
+								<year>2006</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>June</month>
+								<year>2007</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>Lead Java developer contributing to the redesign of legacy
+							mainframe applications to a Java / Oracle / Linux platform to
+							support the SPG loyalty program. Designed, developed, and managed
+							the release of applications containing web services, messaging,
+							and batch processes.
+						</para>
+					</description>
+
+					<projects>
+						<project title="SPG Billing">Prepares file transfers and reporting on
+							awarded SPG points.
+						</project>
+						<project title="SPG Promotions">Analyze SPG member qualifications to earn
+							promotion rewards.
+						</project>
+						<project title="SPG Services">RESTful and SOAP web services which expose
+							SPG stay and promotion processing to internal clients.
+						</project>
+					</projects>
+
+					<achievements>
+						<achievement>Received the Gold Star Award, granted to an
+							individual in recognition of contributions to Starwood and for
+							exceeding the expectations of managers, colleagues and customers
+							while exhibiting the vision and values that support Starwood's
+							drive to create superior customer, owner and shareholder value.
+						</achievement>
+					</achievements>
+				</job>
+
+				<job>
+					<jobtitle>SPG Java Developer</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>June</month>
+								<year>2004</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>February</month>
+								<year>2006</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+						</para>
+					</description>
+
+					<projects>
+						<project title="SPG Partner Programs">Consumes various feeds to support
+							partnerships with credit cards (American Express, MBNA), car
+							rentals (Avis,Sixt), and Airlines (Delta, US Airways, and
+							others).
+						</project>
+						<project title="SPG Stays">Award points and upgrades to SPG members
+							for Starwood Hotel stays.
+						</project>
+					</projects>
+
+				</job>
+
+				<job>
+					<jobtitle>Programmer Analyst</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>January</month>
+								<year>2003</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>May</month>
+								<year>2004</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+							Filled a multitude of roles centered around reporting using
+							Actuate,
+							JReports, Perl, shell scripting, and PL/SQL to automate
+							data
+							loads and provide real-time reporting for internal
+							applications
+							and dashboards. Functioned as Data Architect of
+							tables supporting
+							reporting systems.
+						</para>
+					</description>
+
+					<projects>
+						<project title="Actuate Administrator">Installed and supported an Apache and
+							Tomcat architecture to support Actuate reporting. Implemented
+							servlet based LDAP authentication and supported JSPs.
+						</project>
+						<project title="Guest Recognition">Upgraded Actuate reports for Starwood's
+							guest recognition application providing hotel staff insight into
+							guests' preferences for check-in, check-out, and the duration of
+							their stay to ensure world class service at our premier
+							locations.
+						</project>
+						<project title="Guest Response">Developed Actuate reports providing hotel
+							staff access to data for issue tracking and remediation for the
+							Sheraton Service Promise campaign.
+						</project>
+					</projects>
+
+					<achievements>
+						<achievement>Received the Starwood Impact Award, a corporate award
+							given to an individual or team that has dramatically impacted the
+							business, as part of the Sheraton Service Promise development
+							team.
+						</achievement>
+					</achievements>
+				</job>
+
+
+
+				<job>
+					<jobtitle>Web Analytics Administrator (Contractor through July
+						2002)</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>September</month>
+								<year>2001</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>December</month>
+								<year>2002</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+							Provided web analytics for Starwood web traffic using
+							WebTrends software.
+							Maintained high volumes of log files using
+							Perl and Shell
+							scripting. Analyzed starwood.com site traffic and
+							booking
+							behavior. Analyzed site traffic for Starwood's internal
+							corporate
+							web site.
+						</para>
+					</description>
+
+					<projects>
+						<project title="Starwood.com">Analyzed Starwood.com site traffic and
+							booking behavior
+						</project>
+						<project title="Starwood ONE">Analyzed site traffic for Starwood's
+							internal corporate web site.
+						</project>
+					</projects>
+				</job>
+
+
+				<job>
+					<jobtitle>Oracle Portal Content Administrator (Contractor)</jobtitle>
+					<!-- <employer>Starwood Hotels and Resorts</employer> -->
+					<period>
+						<from>
+							<date>
+								<month>May</month>
+								<year>2001</year>
+							</date>
+						</from>
+						<to>
+							<date>
+								<month>August</month>
+								<year>2001</year>
+							</date>
+						</to>
+					</period>
+					<!-- <location><city>Braintree</city><state>MA</state></location> -->
+					<description>
+						<para>
+							Developed corporate portal site content using Oracle Portal,
+							HTML, CSS,
+							and JavaScript.
+						</para>
+					</description>
+				</job>
+			</roles>
+		</employment>
+
+		<!-- <job> <jobtitle>Accounting Analyst</jobtitle> <employer>Pratt Medical 
+			Management</employer> <period> <from><date><month>September</month><year>1999</year></date></from> 
+			<to><date><month>December</month><year>2000</year></date></to> </period> 
+			<location><city>Boston</city><state>MA</state></location> <description> <para>Performed 
+			general accounting responsibilities and took initiative in developing VB 
+			macros for Excel and Microsoft Access and learned SQL to extract and report 
+			financial data. </para> </description> </job> <job targets="foodservice"> 
+			<jobtitle>Assistant Chef</jobtitle> <employer>Zolo</employer> <period> <from> 
+			<date> <month>April</month> <year>1993</year> </date> </from> <to> <date> 
+			<month>January</month> <year>1997</year> </date> </to> </period> <projects> 
+			<project title="Fall Menu">Created an extensive menu for our fall offerings</project> 
+			<project>Revamping of Grill Area</project> </projects> <achievements> <achievement>Developed 
+			<emphasis>13</emphasis> new menu items</achievement> <achievement>Prepared 
+			daily operations plan</achievement> <achievement>Streamlined procedures for 
+			fresh foods procurement</achievement> </achievements> </job> -->
+	</history>
+
+	<academics>
+		<degrees>
+			<degree>
+				<major>Master of Liberal Arts in Information Technology</major>
+				<period>
+					<from>
+						<date>
+							<year>2003</year>
+						</date>
+					</from>
+					<to>
+						<date>
+							<year>2011</year>
+						</date>
+					</to>
+				</period>
+				<institution>Harvard Extension School</institution>
+				<location>
+					<city>Cambridge</city>
+					<state>MA</state>
+				</location>
+				<subjects>
+					<subject>
+						<title>CSCI-E162 - Distributed and Enterprise Computing</title>
+					</subject>
+					<subject>
+						<title>CSCI E-153 - Web Development Using XML</title>
+					</subject>
+					<subject>
+						<title>CSCI E-247 - Software Design: Principles, Models, and
+							Patterns</title>
+					</subject>
+					<subject>
+						<title>CSCI E-119 - Data Structures</title>
+					</subject>
+					<subject>
+						<title>CSCI E-160 - Java for Distributed Computing</title>
+					</subject>
+					<subject>
+						<title>CSCI E-131B - Communication Protocols</title>
+					</subject>
+					<subject>
+						<title>CSCI E-166 - Web Services</title>
+					</subject>
+					<subject>
+						<title>CSCI E-215 - UNIX Systems Programming</title>
+					</subject>
+					<subject>
+						<title>CSCI E-113 - Intro/C, UNIX, CGI Programming</title>
+					</subject>
+					<subject>
+						<title>CSCI E-207: Introduction to Formal Systems and Computation</title>
+					</subject>
+				</subjects>
+			</degree>
+
+			<degree>
+				<major>Bachelor of Arts in Psychology and Economics</major>
+				<annotation>Completed degree requirements in 3.5 years.</annotation>
+				<period>
+					<from>
+						<date>
+							<year>1995</year>
+						</date>
+					</from>
+					<to>
+						<date>
+							<year>1999</year>
+						</date>
+					</to>
+				</period>
+				<institution>Brandeis University</institution>
+				<location>
+					<city>Waltham</city>
+					<state>MA</state>
+				</location>
+			</degree>
+
+			<!-- <degree> <major>Client/Server Programming and Web Development</major> 
+				<annotation>Certificate</annotation> <period> <from><date><dayOfMonth>18</dayOfMonth><month>December</month><year>2000</year></date></from> 
+				<to><date><dayOfMonth>15</dayOfMonth><month>March</month><year>2001</year></date></to> 
+				</period> <institution>Clark University, CCI</institution> <location><city>Braintree</city><state>MA</state></location> 
+				<subjects> <subject> <title>Visual Basic, Introduction to Oracle: SQL and 
+				PL/SQL, HTML, JavaScript, ASP, Objects and ActiveX Components.</title> </subject> 
+				</subjects> </degree> -->
+		</degrees>
+	</academics>
+
+	<!-- <skillarea targets="programming"> <title>Programming</title> <skillset> 
+		<skill>Java</skill> <skill>JavaScript</skill> <skill>ActionScript</skill> 
+		<skill>Object Oriented Design</skill> <skill>Design Patterns</skill> <skill>XSLT/XPath</skill>> 
+		<skill>PL/SQL</skill> <! - - <skill>Shell Scripting</skill> <skill>Perl</skill> 
+		<skill>PL/SQL</skill> - - > </skillset> </skillarea> -->
+
+
+	<!-- <skillarea targets="webdev"> <title>Web Development</title> <skillset> 
+		<skill>(X)HTML</skill> <skill>CSS</skill> <skill>JavaScript</skill> <skill>Spring 
+		MVC</skill> <skill>Servlets</skill> <skill>JSP</skill> <skill>Backbone.js</skill> 
+		<skill>jQuery</skill> <skill>Underscore.js</skill> <skill>Flex</skill> </skillset> 
+		</skillarea> <skillarea targets="related"> <title>Related Skills / Technologies</title> 
+		<skillset> <skill>Java</skill> <skill>Spring Framework</skill> <skill>Software 
+		Architecture</skill> <skill>Agile Development</skill> <skill>REST</skill> 
+		<skill>Unix</skill> <skill>Linux</skill> <skill>MacOS</skill> <skill>Maven</skill> 
+		<skill>Ant</skill> <skill>Eclipse</skill> <! - - <skill>MongoDB</skill> <skill>Java 
+		EE</skill> <skill>SQL Tuning</skill> <skill>MySQL</skill> <skill>Oracle</skill> 
+		<skill>Redis</skill> <skill>LDAP</skill> <skill>SOAP</skill> <skill>Apache</skill> 
+		<skill>Tomcat</skill> <skill>Cocoon</skill> <skill>Weblogic</skill> <skill 
+		targets="flex">Cairngorm</skill> <skill targets="flex">BlazeDS</skill> - 
+		- > </skillset> </skillarea> -->
+
+
+	<lastModified>
+		<date>
+			<month>January</month>
+			<year>2018</year>
+		</date>
+	</lastModified>
+
+</resume>
